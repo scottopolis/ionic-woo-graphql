@@ -21,7 +21,7 @@ const AddToCart: React.FC<any> = ( { product } ) => {
         console.log( { input: { id, quantity: 1, clientMutationId: '123' } } );
         // add to cart on server
         addToCartMutation( { variables: { input: { productId: id, quantity: 1, clientMutationId: '123' } } } );
-        // save locally
+        // save locally dude
         addToCart( product )
     }
 
